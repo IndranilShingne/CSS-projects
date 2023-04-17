@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: hotpink;
+    }
+    .parent{
+        background-color: white;
+        width: 700px;
+        height: 550px;
+        border: 1px solid;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    #mainheading{
+        text-align: center;
+    }
+    #form{
+        width: 358px;
+        margin-left: 150px;
+    }
+    .box{
+        height: 25px;
+        width: 355px;
+        border: 0px solid;
+        box-shadow: 1px 1px 0px 1px black;
+    }
+    #namebox{
+        box-shadow: 1px 1px 0px 1px black;
+        border: 0px solid;
+        height: 25px;
+    }
+    .lastname{
+        width: 175px;
+        margin-left: 8px;
+    }
+    #messagebox{
+        box-shadow: 1px 1px 0px 1px black;
+        border: 0px solid;
+    }
+    #submitbutton{
+        background-image: repeating-linear-gradient(to right bottom,rgba(255,25,180,0.8),rgba(255,25,180,0.2));
+        margin-left: 135px;
+        border-radius: 20px;
+        border: 0px solid;
+        box-shadow: 1px 1px 1px 1px black;
+        height: 30px;
+        width: 125px; 
+    }
+
+</style>
+<body>
+    <div class="parent">
+        <h2 id="mainheading">Contact Us</h2>
+        <form action="" id="form">
+            <label for="name">YOUR NAME*</label>
+            <br>
+            <input type="text" name=""  id="namebox" placeholder="First name">
+            <input type="text" name="" class="lastname" id="namebox" placeholder="Last name">
+            <br>
+            <br>
+            <label for="">EMAIL ADDRESS*</label>
+            <br>
+            <input type="mail" name="" class="box" id="emailid" placeholder="E.g.example@gmail.com">
+            <br>
+            <br>
+            <label for="">PHONE NUMBER*</label>
+            <br>
+            <input type="text" name="" class="box" id="phoneno" placeholder="E.g:+1800 000000">
+            <br>
+            <br>
+            <label for="">MESSAGE*</label>
+            <br>
+             <textarea name="" id="messagebox" class="" cols="46" rows="9" placeholder="Write Your Message Here.."></textarea>
+            <br>
+            <br>
+            <input type="submit" id="submitbutton" value="Submit -->">
+        </form>
+    </div>
+</body>
+</html>
